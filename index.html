@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Nevada | Servicio Gourmet Virtual</title>
+    <meta name="theme-color" content="#000814">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --nevada-dark: #000814;
+            --nevada-blue: #0047FF;
+            --safe-top: env(safe-area-inset-top);
+            --safe-bottom: env(safe-area-inset-bottom);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: white;
+            color: #000;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            -webkit-font-smoothing: antialiased;
+        }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        
+        #root { height: 100%; width: 100%; }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        .shadow-premium {
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08);
+        }
+
+        .btn-primary {
+            background-color: white;
+            color: black;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 1rem;
+            padding: 1.1rem;
+            width: 100%;
+            font-size: 0.85rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+            border: 1px solid #f0f0f0;
+            transition: all 0.2s ease;
+        }
+
+        .btn-secondary {
+            background-color: #0c0c0c;
+            color: white;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border-radius: 1rem;
+            padding: 1.1rem;
+            width: 100%;
+            font-size: 0.85rem;
+            border: 1px solid #222;
+            transition: all 0.2s ease;
+        }
+        
+        .card-menu {
+            background: #fff;
+            border: 1px solid #f5f5f5;
+            border-radius: 1.25rem;
+            padding: 1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+        }
+
+        .transition-standard {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
